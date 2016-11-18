@@ -5,12 +5,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class TreasureWorld extends World
 {
+    private int money;
     
     public TreasureWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
         prepare();
+        setPaintOrder(Skull.class, Pelican.class, Bank.class, GoldCoin.class, SilverCoin.class);
+        money = 0;
     }
 
     /**
@@ -58,4 +61,26 @@ public class TreasureWorld extends World
         silvercoin.setLocation(140,319);
         goldcoin.setLocation(275,226);
     }
+    public void act()
+    {
+        removeMoney();
+        addCoins();
+        showText("money: " + money, 500, 50);
+    }
+    private void removeMoney()
+    {
+        
+    }
+    private void addCoins()
+    {
+        
+    }
+    /**
+     * pengar som läggs till i centralbanken
+     */
+    public void addMoney(int amount)
+    {
+        money = money + amount;
+    }
+    
 }

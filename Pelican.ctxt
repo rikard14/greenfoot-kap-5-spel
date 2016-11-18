@@ -1,4 +1,21 @@
 #BlueJ class context
 comment0.target=Pelican
-comment0.text=\r\n\ \r\n
-numComments=1
+comment0.text=\r\n\ Pelikanen\ flyttas\ runt\ med\ hj\u00E4lp\ av\ tangentbordet\ i\ v\u00E4rlden.\r\n\ \r\n\ @author\ Rikard\ Karlsson\r\n\ @version\ 2016-11-18\r\n
+comment1.params=
+comment1.target=Pelican()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Anroppas\ vid\ varje\ sk\u00E4rmuppdatering\ av\ systemet.\r\n
+comment3.params=
+comment3.target=void\ move()
+comment3.text=\r\n\ Pelikanen\ kan\ bara\ flytta\ diagonalt.\ Bokstaven\ \r\n\ U\ motsvarar\ snett\ upp\ v\u00E4nster.\ \r\n\ I\ motsvarar\ snett\ upp\ h\u00F6ger.\ \r\n\ B\ motsvarar\ snett\ ner\ v\u00E4nster.\ \r\n\ L\ motsvarar\ snett\ ner\ h\u00F6ger.\r\n
+comment4.params=
+comment4.target=void\ checkCollision()
+comment4.text=\r\n\ Kollision\ med\:\r\n\ d\u00F6skalle\ medf\u00F6r\ healt\ minskar\ med\ ett\r\n\ om\ health\ blir\ 0\ s\u00E5\ ska\ d\u00F6skallen\ vara\ kvar\r\n\ \r\n\ guldmynt\ medf\u00F6r\ att\ antal\ guldmynt\ \u00F6kas\ med\ ett.\ \r\n\ Men\ bara\ om\ vi\ inte\ redan\ b\u00E4r\ 3\ mynt.\ Upplockade\ mynt\ tas\ bort.\r\n
+comment5.params=
+comment5.target=void\ showHealth()
+comment6.params=
+comment6.target=void\ showCoins()
+comment7.params=
+comment7.target=int\ getNoCoins()
+numComments=8

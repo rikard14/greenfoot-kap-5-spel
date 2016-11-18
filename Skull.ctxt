@@ -1,4 +1,12 @@
 #BlueJ class context
 comment0.target=Skull
-comment0.text=\r\n\ \r\n
-numComments=1
+comment0.text=\r\n\ D\u00F6skallen\ \u00E4r\ farlig\ f\u00F6r\ pelikanen.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\r\n\ D\u00F6skallen\ flytta\ sig\ -5,\ 0\ eller\ 5\ pixlar\ i\ x-led\ \r\n\ varje\ "frame".\ Slumpen\ best\u00E4mmer.\ \r\n\ P\u00E5\ samma\ s\u00E4tt\ i\ y-led.\r\n
+comment3.params=
+comment3.target=void\ checkCollision()
+comment3.text=\r\n\ \u00E4t\ guldmynt\r\n
+numComments=4
